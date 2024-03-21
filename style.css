@@ -83,6 +83,24 @@ font-size: 63px;
     transition: 1s;
     
 }
+@media (max-width:700px){
+    .scris h1{
+        font-size: 20px;
+        }
+        .nav-links ul li{
+            display: block;
+        }
+        .nav-links{
+            position: absolute;
+            background: #f44336;
+            height: 100vh;
+            width: 200px;
+            top: 0;
+            right: 0;
+            text-align: left;
+            z-index: 2;
+        }
+}
 
 .cine-suntem{
     width: 80%;
@@ -172,4 +190,9 @@ h3{
   bottom: 49%;
   opacity: 1;
 
+}
+.navbar ul i{
+    font-size: 18px;
+    color: #fff;
+    margin: 0 5px;
 }
